@@ -1,8 +1,7 @@
 Aplicacion correspondiente a la prueba del modulo React II de carrera Desarrollador Full Stack Javascript de Desafio Latam.
 
-Esta prueba consiste en desarrollar una pagina web de una pizzeria donde podemos seleccionar desde la pagina principal o Home alguna pizza a eleccion y llevarla al carrito de compras, o ir a una vista que nos entrega una descripcion de cada pizza.
+Prueba de modulo: Mamma Mia!
 
+Esta aplicacion consiste en una tienda virtual de pizzeria Mamma Mia, esta tienda consiste principalmente en 3 views o paginas, "Home" o "Principal" donde encontraremos un catalogo con las pizzas en carta, sus ingredientes, precio y un boton para añadir cada pizza al carrito de compras, tambien tenemos la vista detalle de cada una de las pizzas a la cual se ingresa desde la pagina Home clickeando en boton "Ver mas", en esta pagina podremos apreciar una descripcion de la pizza ademas de otros datos y podremos tambien añadir la pizza al carrito, por ultimo tenemos la vista "Carrito de compras" o "Cart" donde podremos ver la totalidad de las pizzas que hemos añadido por cantidad y precios ya sea total como por tipo de pizza, en esta vista podremos apreciar dos botones para aumentar la cantidad de pizzas seleccionadas o disminuirlas hasta quitarlas del carrito. Por otra parte en el componente Navbar en el cual iremos al carrito tendremos un indicador del precio total a pagar por el cliente.
 
-Los conocimientos que se buscan practicar y evaluar en esta aplicacion son el uso de estados y funciones entre componentes (para manejar cosas como la logica de seleccion de pizzas en el carrito, el valor total de las pizzas, entre otras cosas), esto a traves de un Context que los provee, ademas de la utilizacion de React Router para poder navegar entre las 3 views principales, Home, Cart y Pizza (descripcion).
-
-
+En este desafio se busco aplicar y practicar los conocimientos aprendidos en el modulo en cuanto a React Router y Context, los cuales nos permitieron poder navegar entre las distintas vistas, acceder a parametros a traves de la ruta, poder disponer de estados y funciones para los demas componentes, entre otras cosas.

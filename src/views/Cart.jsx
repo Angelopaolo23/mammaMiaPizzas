@@ -18,7 +18,7 @@ const Cart = () => {
                                     <h6 className="text-capitalize fw-bold h4">{item.name}</h6>
                                 </div>
                                 <div className="d-flex flex-row justify-content-center align-items-center">
-                                    <h6 className="mx-5">{Intl.NumberFormat('es-CL',{style:'currency',currency:'CLP'}).format(item.price)}</h6>
+                                    <h6 className="mx-5">{Intl.NumberFormat('es-CL',{style:'currency',currency:'CLP'}).format(item.price*item.quantity)}</h6>
                                     <Button className="mx-1 btn-danger" onClick={() => sustractingPizzas(shoppingCart, item.id)}>-</Button>
                                     <h6 className="mx-1">{item.quantity}</h6>
                                     <Button className="mx-1 btn-success" onClick={() => addingCartItems(shoppingCart, item.id, item.name)}>+</Button>
